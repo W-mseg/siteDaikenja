@@ -1,0 +1,27 @@
+<nav>
+  <div class="logo">
+    <a routerLink="">
+      <img src="./assets/GreatSage.png" alt="Logo">
+    </a>
+  </div>
+
+  <div class="mainNav">
+
+    <div class="links">
+      <a routerLink="documentation">Documentation</a>
+      <a routerLink="features">Features</a>
+      <a routerLink="about">A propos</a>
+    </div>
+    <div class="buttonComponent">
+      <button mat-icon-button [mat-menu-trigger-for]="menu">
+        <mat-icon>reorder</mat-icon>
+      </button>
+    </div>
+
+  </div>
+  <mat-menu #menu="matMenu">
+    <a href="" mat-menu-item>Documentation</a>
+    <a href="" mat-menu-item>Features</a>
+    <a href="" mat-menu-item>A propos</a>
+  </mat-menu>
+</nav>

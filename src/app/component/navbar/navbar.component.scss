@@ -1,0 +1,59 @@
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #36393F;
+  display: flex;
+  justify-content: space-between;
+
+  .mainNav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .links {
+      display: inline-flex;
+      a {
+        display: flex;
+        align-self: center;
+        margin: 0.5rem;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+      }
+    }
+
+    .buttonComponent {
+      align-self: center;
+      color: white;
+      width: 70px;
+      button {
+        background-color: #36393F;
+      }
+    }
+
+  }
+
+  .logo {
+    img {
+      width: 100px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .buttonComponent{
+    display: none;
+  }
+  .links{
+    display: block;
+  }
+}
+@media (max-width: 1200px) {
+  .buttonComponent{
+    display: block;
+    margin: 0 0 0 auto;
+  }
+  .links{
+    display: none !important;
+  }
+}

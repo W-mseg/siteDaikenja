@@ -1,0 +1,14 @@
+.container{
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(10,1fr);
+  grid-template-columns: repeat(10,1fr);
+  app-navbar{
+    grid-row: 1/2;
+    grid-column: 1/11;
+  }
+  .outlet_container{
+    grid-row: 2/11;
+    grid-column: 1/11;
+  }
+}

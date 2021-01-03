@@ -1,0 +1,34 @@
+/**global class**/
+
+.reset_link_to_white {
+  text-decoration: none;
+  color: white;
+}
+.grid_10{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+/**animations category**/
+
+// animations class
+.castle_animation{
+  animation: castleAnimation linear infinite 3s;
+}
+
+// animations keyframes
+@keyframes castleAnimation {
+  0% {
+    position: relative;
+    top: 0;
+  }
+  50% {
+    position: relative;
+    top: 1rem;
+  }
+  100% {
+    position: relative;
+    top: 0;
+  }
+}
