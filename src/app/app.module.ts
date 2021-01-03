@@ -14,6 +14,10 @@ import { DocumentationComponent } from './routes/documentation/documentation.com
 import { FeaturesComponent } from './routes/features/features.component';
 import { AboutComponent } from './routes/about/about.component';
 import { NotfoundComponent } from './routes/notfound/notfound.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {ReactiveFormsModule} from '@angular/forms';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { NotfoundComponent } from './routes/notfound/notfound.component';
     MatIconModule,
     MatRippleModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    MatSidenavModule,
+    ReactiveFormsModule,
+    MatCheckboxModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
