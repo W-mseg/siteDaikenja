@@ -14,6 +14,7 @@ import { DocumentationComponent } from './routes/documentation/documentation.com
 import { FeaturesComponent } from './routes/features/features.component';
 import { AboutComponent } from './routes/about/about.component';
 import { NotfoundComponent } from './routes/notfound/notfound.component';
+import { FeaturefractionComponent } from './component/featurefraction/featurefraction.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NotfoundComponent } from './routes/notfound/notfound.component';
     DocumentationComponent,
     FeaturesComponent,
     AboutComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    FeaturefractionComponent
   ],
   imports: [
     BrowserModule,
