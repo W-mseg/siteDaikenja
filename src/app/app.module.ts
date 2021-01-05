@@ -20,6 +20,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {ListofmenuComponent} from './component/listofmenu/listofmenu.component';
 import {MatTreeModule} from '@angular/material/tree';
+import {FeaturefractionComponent} from './component/featurefraction/featurefraction.component';
 import {CardlinkComponent} from './component/cardlink/cardlink.component';
 import {MatCardModule} from '@angular/material/card';
 
@@ -31,6 +32,8 @@ import {MatCardModule} from '@angular/material/card';
     DocumentationComponent,
     FeaturesComponent,
     AboutComponent,
+    NotfoundComponent,
+    FeaturefractionComponent,
     NotfoundComponent,
     ListofmenuComponent,
     CardlinkComponent
