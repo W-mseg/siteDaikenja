@@ -20,6 +20,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { ListofmenuComponent } from './component/listofmenu/listofmenu.component';
 import {MatTreeModule} from '@angular/material/tree';
+import { FeaturefractionComponent } from './component/featurefraction/featurefraction.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,8 @@ import {MatTreeModule} from '@angular/material/tree';
     DocumentationComponent,
     FeaturesComponent,
     AboutComponent,
+    NotfoundComponent,
+    FeaturefractionComponent,
     NotfoundComponent,
     ListofmenuComponent
   ],
