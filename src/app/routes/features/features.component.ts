@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {TextsforfractionService} from '../../services/textsforfraction.service';
 
 @Component({
   selector: 'app-features',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeaturesComponent implements OnInit {
 title: string;
-  constructor() { }
+  constructor(public informationText: TextsforfractionService) { }
 
   ngOnInit(): void {
   }
