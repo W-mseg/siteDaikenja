@@ -1,0 +1,13 @@
+<div *ngIf="listOfCommands.length > 0">
+
+  <div *ngFor="let element of listOfCommands">
+    <h3>{{verifyElement(element.title)}}</h3>
+    <div>
+      <button mat-button *ngFor="let command of element.commands" (click)="listOfCommandService.changeActualDocumentation(command.name, command.description)">{{command.name}}</button>
+    </div>
+  </div>
+
+</div>
+<div *ngIf="listOfCommands.length === 0">
+  <p>not found</p>
+</div>

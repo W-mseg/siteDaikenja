@@ -15,20 +15,7 @@
       color: white;
     }
 
-    h3 {
-      margin-left: 0.5em;
-      font-size: large;
-      color: white;
-      text-transform: uppercase;
-      text-decoration: underline white;
-      font-weight: bolder;
-    }
 
-    p {
-      margin-left: 1.5rem;
-      font-size: medium;
-      color: white;
-    }
   }
 }
 
@@ -44,7 +31,6 @@
   }
 
   .documentation_content_text {
-    border: solid;
     margin: 1rem;
 
     p {
@@ -70,7 +56,6 @@
 
 .inner_menu {
   margin: 1rem;
-
 }
 
 @media (max-width: 900px) {

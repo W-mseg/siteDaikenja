@@ -18,6 +18,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {ListofmenuComponent} from './component/listofmenu/listofmenu.component';
+import {MatTreeModule} from '@angular/material/tree';
 import {CardlinkComponent} from './component/cardlink/cardlink.component';
 import {MatCardModule} from '@angular/material/card';
 
@@ -30,6 +32,7 @@ import {MatCardModule} from '@angular/material/card';
     FeaturesComponent,
     AboutComponent,
     NotfoundComponent,
+    ListofmenuComponent,
     CardlinkComponent
   ],
   imports: [
@@ -44,6 +47,7 @@ import {MatCardModule} from '@angular/material/card';
     ReactiveFormsModule,
     MatCheckboxModule,
     MatFormFieldModule,
+    MatTreeModule,
     MatCardModule
   ],
   providers: [],

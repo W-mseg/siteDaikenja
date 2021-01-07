@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ListofcommandsService} from '../../services/listofcommands.service';
 
 @Component({
   selector: 'app-documentation',
@@ -6,17 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./documentation.component.scss']
 })
 export class DocumentationComponent implements OnInit {
-  listOfCommands = [{title: 'test', commands : ['test1', 'test2', 2]}];
   title: string;
   paragraphe: string;
-  constructor() {
+  constructor(public listOf: ListofcommandsService) {
   }
 
   ngOnInit(): void {
-  }
-
-  verifyElement(element): string{
-    return typeof element === 'string' ?  element : null;
   }
 
 }
