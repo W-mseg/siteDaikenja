@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-featurefraction',
@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./featurefraction.component.scss']
 })
 export class FeaturefractionComponent implements OnInit {
-title: string;
-text: string;
+@Input()title: string;
+@Input()text: string;
+@Input()inverted: boolean;
   constructor() { }
 
   ngOnInit(): void {
