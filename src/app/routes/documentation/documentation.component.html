@@ -1,15 +1,21 @@
 <div class="documentation_container">
+
   <aside class="documentation_side-panel large-screen_menu">
     <div>
       <h2>Menu</h2>
+
       <app-listofmenu [listOfCommands]="listOf.commands"></app-listofmenu>
+
     </div>
   </aside>
+
   <div class="responsive_menu">
     <button mat-icon-button [mat-menu-trigger-for]="menu">menu</button>
     <mat-menu #menu="matMenu">
       <div class="inner_menu">
+
         <app-listofmenu [listOfCommands]="listOf.commands"></app-listofmenu>
+
       </div>
     </mat-menu>
   </div>
