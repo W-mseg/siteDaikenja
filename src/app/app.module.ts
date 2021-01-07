@@ -18,6 +18,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { ListofmenuComponent } from './component/listofmenu/listofmenu.component';
+import {MatTreeModule} from '@angular/material/tree';
 
 @NgModule({
   declarations: [
@@ -27,21 +29,23 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     DocumentationComponent,
     FeaturesComponent,
     AboutComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    ListofmenuComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatIconModule,
-    MatRippleModule,
-    MatButtonModule,
-    MatMenuModule,
-    MatSidenavModule,
-    ReactiveFormsModule,
-    MatCheckboxModule,
-    MatFormFieldModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatIconModule,
+        MatRippleModule,
+        MatButtonModule,
+        MatMenuModule,
+        MatSidenavModule,
+        ReactiveFormsModule,
+        MatCheckboxModule,
+        MatFormFieldModule,
+        MatTreeModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
