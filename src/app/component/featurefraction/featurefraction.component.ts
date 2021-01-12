@@ -9,6 +9,7 @@ export class FeaturefractionComponent implements OnInit {
 @Input()title: string;
 @Input()text: string;
 @Input()inverted: boolean;
+@Input()image: string;
   constructor() { }
 
   ngOnInit(): void {
