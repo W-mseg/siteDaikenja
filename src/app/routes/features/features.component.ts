@@ -7,7 +7,6 @@ import {TextsforfractionService} from '../../services/textsforfraction.service';
   styleUrls: ['./features.component.scss']
 })
 export class FeaturesComponent implements OnInit {
-title: string;
   constructor(public informationText: TextsforfractionService) { }
 
   ngOnInit(): void {
