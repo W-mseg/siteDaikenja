@@ -14,6 +14,8 @@ import { DocumentationComponent } from './routes/documentation/documentation.com
 import { FeaturesComponent } from './routes/features/features.component';
 import { AboutComponent } from './routes/about/about.component';
 import { NotfoundComponent } from './routes/notfound/notfound.component';
+import { CardlinkComponent } from './component/cardlink/cardlink.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -23,17 +25,19 @@ import { NotfoundComponent } from './routes/notfound/notfound.component';
     DocumentationComponent,
     FeaturesComponent,
     AboutComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    CardlinkComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatIconModule,
-    MatRippleModule,
-    MatButtonModule,
-    MatMenuModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatIconModule,
+        MatRippleModule,
+        MatButtonModule,
+        MatMenuModule,
+        MatCardModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
