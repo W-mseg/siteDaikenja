@@ -4,7 +4,8 @@
   text-decoration: none;
   color: white;
 }
-.grid_10{
+
+.grid_10 {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
@@ -13,7 +14,7 @@
 /**animations category**/
 
 // animations class
-.castle_animation{
+.castle_animation {
   animation: castleAnimation linear infinite 3s;
 }
 

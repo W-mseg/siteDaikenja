@@ -3,7 +3,8 @@
   <div *ngFor="let element of listOfCommands">
     <h3>{{verifyElement(element.title)}}</h3>
     <div class="subContainer_format_listOfButton">
-      <a mat-button *ngFor="let command of element.commands" (click)="listOfCommandService.changeActualDocumentation(command.name, command.description)">{{command.name}}</a>
+      <a mat-button *ngFor="let command of element.commands"
+         (click)="listOfCommandService.changeActualDocumentation(command.name, command.description)">{{command.name}}</a>
     </div>
   </div>
 

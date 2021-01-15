@@ -1,6 +1,4 @@
 <div class="container_display_featureFraction">
-
-
   <app-featurefraction *ngFor="let object of informationText.listOfText; let index = index" [title]="object.title"
                        [text]="object.text" [inverted]="index%2 === 0" [image]="object.image">
   </app-featurefraction>

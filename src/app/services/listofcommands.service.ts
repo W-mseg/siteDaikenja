@@ -57,5 +57,6 @@ export class ListofcommandsService {
 
   changeActualDocumentation(titre: string, text: string): void{
     this.actualDocumentation = {title: titre, description: text};
+    document.getElementById('ancrage').scrollIntoView();
   }
 }
